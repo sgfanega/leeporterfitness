@@ -1,5 +1,3 @@
-const Masonry = require('masonry-layout');
-
 require('bootstrap');
 require('masonry-layout');
 
@@ -24,9 +22,4 @@ jQuery(document).ready(function($) {
             $('.navbar').removeClass('showBg');
         }
     });
-});
-
-var msnry = new Masonry('.grid', {
-    columnWidth: 80,
-    itemSelector: '.grid-item',
 });
