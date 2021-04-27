@@ -11,7 +11,11 @@
  */
 ?>
 <?php 
-    $background_image = get_template_directory_uri() . '/dist/images/Photo-1.jpg';
+    $background_image = getAcfData('background_image');
+
+    if ($background_image == '') {
+        $background_image = get_template_directory_uri() . '/dist/images/Photo-1.jpg';
+    }
 ?>
 <?php get_header(); ?>
 
