@@ -1,0 +1,37 @@
+$primary-color: #F15A24;
+$secondary-color: #1A1A1A;
+$tertiary-color: #A1A1A1;
+
+.bg-primary-color {
+    background-color: $primary-color !important;
+}
+
+.bg-secondary-color {
+    background-color: $secondary-color !important;
+}
+
+.bg-secondary-color-90 {
+    background-color: rgba(26, 26, 26, .9) !important;
+}
+
+.bg-tertiary-color {
+    background-color: $tertiary-color !important;
+}
+
+.text-primary {
+    color: $primary-color !important;
+}
+
+.bold-primary {
+    color: $primary-color !important;
+    font-weight: bold;
+}
+
+.a-primary-color {
+    color: white !important;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-color !important;
+    }
+}

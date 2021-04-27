@@ -1,0 +1,24 @@
+@use 'colors';
+
+footer {
+    li {
+        list-style-type: none;
+        a {
+            color: white;
+            text-decoration: none;
+            
+            &:hover {
+                color: colors.$primary-color;
+            }
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: colors.$primary-color;
+        }
+    }
+}

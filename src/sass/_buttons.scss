@@ -1,0 +1,67 @@
+@use 'colors';
+
+.btn-custom-primary {
+    color: white;
+    background-color: colors.$primary-color;
+    border-color: colors.$primary-color;
+
+    &:hover {
+        color: colors.$primary-color;
+        background-color: white;
+        border-color: white;
+    }
+}
+
+.btn-custom-primary-outline {
+    color: white;
+    border-color: colors.$primary-color;
+
+    &:hover {
+        color: colors.$primary-color;
+        border-color: white;
+    }
+}
+
+.btn-custom-secondary {
+    color: white;
+    background-color: colors.$secondary-color;
+    border-color: colors.$secondary-color;
+
+    &:hover {
+        color: colors.$secondary-color;
+        background-color: white;
+        border-color: white;
+    }
+}
+
+.btn-custom-secondary-outline {
+    color: white;
+    border-color: colors.$secondary-color;
+
+    &:hover {
+        color: colors.$secondary-color;
+        border-color: white;
+    }
+}
+
+.btn-custom-tertiary {
+    color: white;
+    background-color: colors.$tertiary-color;
+    border-color: colors.$tertiary-color;
+
+    &:hover {
+        color: colors.$tertiary-color;
+        background-color: white;
+        border-color: white;
+    }
+}
+
+.btn-custom-tertiary-outline {
+    color: white;
+    border-color: colors.$tertiary-color;
+
+    &:hover {
+        color: colors.$tertiary-color;
+        border-color: white;
+    }
+}

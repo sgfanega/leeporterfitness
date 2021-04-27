@@ -1,0 +1,24 @@
+.grid-item-width {
+    width: 20rem;
+}
+
+.grid-item-width-2 {
+    width: 25rem;
+}
+
+.grid-item-width-3 {
+    width: 30rem;
+}
+
+.grid-item-width-one-third {
+    width: calc(100% / 3);
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: 30%;
+    margin-bottom: 5rem;
+}
