@@ -24,8 +24,8 @@
         $background_image = get_template_directory_uri() . '/dist/images/Photo-2.jpg';
     }
 
-    if ($profile_image == '') {
-        $profile_image = get_template_directory_uri() . '/dist/images/Profile-Picture.jpg';
+    if ($profile_picture == '') {
+        $profile_picture = get_template_directory_uri() . '/dist/images/Profile-Picture.jpg';
     }
 
     /**
@@ -61,7 +61,7 @@
                 <h6 class="display-6 text-center text-white">Meet Your Trainer</h6>
                 <div class="card rounded bg-secondary-color-90 shadow">
                     <div class="card-body">
-                        <img class="rounded img-fluid" src="<?php echo $profile_image; ?>" alt="">
+                        <img class="rounded img-fluid" src="<?php echo $profile_picture; ?>" alt="">
                         <p class="fs-3 text-white my-0"><?php echo $name; ?></p>
                         <p class="fs-5 text-primary bold-primary"><?php echo $certification; ?></p>
                         <a class="btn btn-custom-primary" href="/about-me">Learn More!</a>
