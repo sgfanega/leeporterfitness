@@ -57,6 +57,9 @@ function addFitnessFavicon()
 add_action('wp_head', 'addFitnessFavicon');
 add_action('admin_head', 'addFitnessFavicon');
 
+// Adds the title of the website on tabs
+add_theme_support('title-tag');
+
 /**
  * Gets the ACF Data
  * 
